@@ -1,3 +1,4 @@
+
 const express = require("express");
 const cors = require("cors");
 const dotenv = require("dotenv");
@@ -21,9 +22,6 @@ app.use(
 // อ่าน JSON จาก Request
 app.use(express.json());
 
-// เรียกใช้งาน URL Routes
-app.use("/", urlRoutes);
-
 // ทดสอบ Server
 app.get("/", (req, res) => {
   res.json({
@@ -31,6 +29,9 @@ app.get("/", (req, res) => {
     message: "URL Shortener API is running",
   });
 });
+
+// เรียกใช้งาน URL Routes
+app.use("/", urlRoutes);
 
 // เริ่มต้น Server
 app.listen(PORT, () => {
