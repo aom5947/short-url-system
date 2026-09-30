@@ -34,7 +34,7 @@
 | Backend API | https://short-url-system-bqjo.onrender.com/ |
 | GitHub      | https://github.com/aom5947/short-url-system |
 
-> หมายเหตุ: ควรทดสอบการสร้าง URL และการเชื่อมต่อฐานข้อมูลบนระบบออนไลน์ก่อนส่งลิงก์ให้ผู้ประเมิน
+
 
 ---
 
